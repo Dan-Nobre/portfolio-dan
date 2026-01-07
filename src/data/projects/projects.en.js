@@ -2,7 +2,7 @@ const projectsEN = [
     {
         id: 1,
         title: "Lazarus, Into the Dungeon",
-        plataform: "iOS",
+        platform: "iOS",
         year: "2025",
         description: "You have been abandoned by your companions in a dungeon full of danger. Recruit allies and descend into the depths—will you seek peace or vengeance against those who betrayed you?",
         link: ""
@@ -10,7 +10,7 @@ const projectsEN = [
     {
         id: 2,
         title: "Eyebound",
-        plataform: "iOS",
+        platform: "iOS",
         year: "2025",
         description: "Prepare to challenge enemies from another plane. Combine cards to deal maximum damage to your opponents and help them find eternal rest.",
         link: ""
@@ -18,7 +18,7 @@ const projectsEN = [
     {
         id: 3,
         title: "Walk & Hatch",
-        plataform: "iOS/iPad",
+        platform: "iOS/iPad",
         year: "2024",
         description: "A new way to discover your journey. Earn companions and find a new way to stay healthy.",
         link: ""
@@ -26,7 +26,7 @@ const projectsEN = [
     {
         id: 4,
         title: "Dojodoro",
-        plataform: "iOS/iPad/macOS",
+        platform: "iOS/iPad/macOS",
         year: "2024",
         description: "Grow plants while focusing on your goals. Dojodoro brings a calm and relaxing experience for those seeking focus and mindfulness.",
         link: ""
@@ -34,7 +34,7 @@ const projectsEN = [
     {
         id: 5,
         title: "Gympsi",
-        plataform: "iOS",
+        platform: "iOS",
         year: "2024",
         description: "Forget manual gym logs and keep your workouts in the palm of your hand. Organize your training in a straightforward way.",
         link: ""
@@ -42,7 +42,7 @@ const projectsEN = [
     {
         id: 6,
         title: "Nirva",
-        plataform: "iPadOS",
+        platform: "iPadOS",
         year: "2025",
         description: "Live a more enjoyable life with stretching. Follow a guided program tailored for you using your iPad.",
         link: ""
