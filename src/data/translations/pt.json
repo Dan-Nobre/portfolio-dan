@@ -1,0 +1,22 @@
+{
+  "navbar": {
+    "logo": "Daniel Nobre",
+    "technologies": "Tecnologias",
+    "projects": "Projetos", 
+    "testimonials": "Recomendações",
+    "contact": "Vamos conversar",
+    "resume": "Meu currículo"
+  },
+  "hero": {
+    "title": "Evoluindo produtos com foco em qualidade, experiência do usuário e inovação"
+  },
+  "sections": {
+    "technologies": "Tecnologias que tenho familiaridade",
+    "projects": "Trabalhos mais relevantes", 
+    "testimonials": "Recomendações"
+  },
+  "buttons": {
+    "discoverMore": "Descubra mais →",
+    "readMore": "Leia mais"
+  }
+}

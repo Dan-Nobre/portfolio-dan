@@ -1,9 +1,9 @@
-import projectsPT from './projects.pt';
-import projectsEN from './projects.en';
+import pt from './pt.json';
+import en from './en.json';
 
-const projects = {
-    pt: projectsPT,
-    en: projectsEN
+const translations = {
+  pt,
+  en
 };
 
-export default projects;
+export default translations;

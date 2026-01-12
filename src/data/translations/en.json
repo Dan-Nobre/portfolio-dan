@@ -1,0 +1,22 @@
+{
+  "navbar": {
+    "logo": "Daniel Nobre",
+    "technologies": "Technologies",
+    "projects": "Projects",
+    "testimonials": "Recommendations", 
+    "contact": "Let's talk",
+    "resume": "My resume"
+  },
+  "hero": {
+    "title": "Evolving products with focus on quality, user experience and innovation"
+  },
+  "sections": {
+    "technologies": "Technologies I'm familiar with",
+    "projects": "Most relevant works",
+    "testimonials": "Recommendations"
+  },
+  "buttons": {
+    "discoverMore": "Discover more →",
+    "readMore": "Read more"
+  }
+}
