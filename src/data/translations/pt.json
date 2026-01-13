@@ -1,0 +1,41 @@
+{
+  "navbar": {
+    "logo": "Daniel Nobre",
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Evoluindo produtos com foco em qualidade, experiência do usuário e inovação",
+    "contactBtn": "Vamos conversar",
+    "resumeBtn": "Meu currículo"
+  },
+  "about": {
+    "title": "Um pouco sobre mim",
+    "subtitle": "Designer com vontade né",
+    "content": "Texto sobre você aqui..."
+  },
+  "technologies": {
+    "title": "Tecnologias que tenho familiaridade"
+  },
+  "projects": {
+    "title": "Trabalhos mais relevantes"
+  },
+  "testimonials": {
+    "title": "Recomendações",
+    "subtitle": "Depoimentos de pessoas que trabalharam comigo durante minha jornada como desenvolvedor."
+  },
+  "quote": {
+    "text": "sou o conhecedor de testes"
+  },
+  "footer": {
+    "title": "Vamos criar algo incrível juntos?",
+    "email": "daniel@email.com",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "buttons": {
+    "discoverMore": "Descubra mais",
+    "readMore": "Leia mais"
+  }
+}
