@@ -1,5 +1,5 @@
-import pt from './pt.json';
-import en from './en.json';
+import pt from './projects.pt.json';
+import en from './projects.en.json';
 
 const translations = {
   pt,

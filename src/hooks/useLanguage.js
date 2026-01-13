@@ -1,7 +1,7 @@
 // File for manager translations
 
 import { useState, useEffect } from 'react';
-import translations from '../data/projects';
+import translations from '../data/translations';
 import projects from '../data/projects';
 
 const useLanguage = () => {

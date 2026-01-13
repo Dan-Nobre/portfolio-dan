@@ -1,17 +1,25 @@
-import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero Section/Hero';
+import About from './components/About/About';
+import Technologies from './components/Technologies/Technologies';
+import ProjectsGrid from './components/Projects Section/ProjectsGrid';
+import Testimonials from './components/Testimonials/TestimonialsList';
+import Quote from './components/Quote/Quote';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Navbar />
-
       <Hero />
-
-      <p>Conteudo aqui nean</p>
+      <About />
+      {/* <Technologies /> */}
+      {/* <ProjectsGrid /> */}
+      {/* <Testimonials /> */}
+      <Quote />
+      <Footer />
     </div>
   );
 }

@@ -1,22 +1,41 @@
 {
   "navbar": {
     "logo": "Daniel Nobre",
-    "technologies": "Technologies",
+    "about": "About me",
     "projects": "Projects",
-    "testimonials": "Recommendations", 
-    "contact": "Let's talk",
-    "resume": "My resume"
+    "contact": "Contact"
   },
   "hero": {
-    "title": "Evolving products with focus on quality, user experience and innovation"
+    "title": "Evolving products with focus on quality, user experience and innovation",
+    "contactBtn": "Let's talk",
+    "resumeBtn": "My resume"
   },
-  "sections": {
-    "technologies": "Technologies I'm familiar with",
-    "projects": "Most relevant works",
-    "testimonials": "Recommendations"
+  "about": {
+    "title": "A little about me",
+    "subtitle": "A Programmer with sede de Design",
+    "content": "Text about you here..."
+  },
+  "technologies": {
+    "title": "Technologies I'm familiar with"
+  },
+  "projects": {
+    "title": "Most relevant works"
+  },
+  "testimonials": {
+    "title": "Recommendations",
+    "subtitle": "Testimonials from people who worked with me during my journey as a developer."
+  },
+  "quote": {
+    "text": "Heyy there"
+  },
+  "footer": {
+    "title": "Let's create something amazing together?",
+    "email": "daniel@email.com",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
   },
   "buttons": {
-    "discoverMore": "Discover more →",
+    "discoverMore": "Discover more",
     "readMore": "Read more"
   }
 }
