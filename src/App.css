@@ -1,75 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap');
 
 :root {
+  /* Font */
   --font-base: 'Figtree', sans-serif;
+
+  /* Font-Scale */
+  --text-hero: 56px;
+  --text-h1: 48px; /*Heading Grandes*/
+  --text-h2: 40px; /* Sessões */
+  --text-h3: 24px; /* Títulos de cards */
+  --text-lg: 20px; /* Subtítulos ou chamadas */
+  --text-md: 16px; /* Texto padrão */
+  --text-sm: 14px; /* Meta info */
+
+  /* Color */
   --color-text: #000000;
   --color-bg: #ffffff;
 }
 
-* {
+html {
   box-sizing: border-box;
 }
 
-html, body {
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
   margin: 0;
   padding: 0;
   font-family: var(--font-base);
+  font-size: var(--text-md);
+  line-height: 1.6;
   background-color: var(--color-bg);
   color: var(--color-text);
 }
 
-/* About Section */
-.about {
-  background: #f9f9f9;
-}
 
-.about-subtitle {
-  color: #666;
-  margin-bottom: 1.5rem;
-  font-size: 1.2rem;
-}
 
-.about-content {
-  max-width: 800px;
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
 
-/* Footer pra ver as cores da sessão */
-.footer {
-  background: #333;
-  color: white;
-  padding: 4rem 0;
-  text-align: center;
-}
 
-.footer-title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-.footer-contact {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  margin: 2rem 0;
-}
-
-.contact-link {
-  color: white;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.contact-link:hover {
-  color: #0077ff;
-}
-
-.footer-copyright {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid #444;
-  color: #aaa;
-}
