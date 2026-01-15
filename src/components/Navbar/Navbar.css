@@ -19,20 +19,82 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     width: 100%;
     max-width: 973px;
+
     padding: 8px 16px;
-    border-radius: 16px;
+    border-radius: 12px;
+
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(35px);
 }   
 
 .navbar-logo {
-    font-family: 'Figtree', sans-serif;
-    font-weight: 600px;
-    font-size: 20px;
+    font-size: var(--text-md);
+    font-weight: 600;
     color: white;
 }
+
+.navbar-links button {
+    background: transparent;
+    border: none;
+
+    padding: 8px 12px;
+    border-radius: 8px;
+
+    font-size: var(--text-md);
+    font-weight: 500;
+    font-family: var(--font-base);
+    color: white;
+
+    cursor: pointer;
+}
+
+.navbar-links button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.language-switcher {
+    display: flex;
+    gap: 8px;
+    margin-left: 16px;
+}
+
+.language-switcher button {
+    background: transparent;
+    border: none;
+
+    padding: 6px 10px;
+    border-radius: 8px;
+
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: white;
+    
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.language-switcher button:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.language-switcher button.active {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.15);
+    font-weight: 600;
+}
+
+.language-switcher::before {
+  content: '';
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  margin-right: 8px;
+}
+
 
 /* .navbar-container{
     max-width: 1200px;
