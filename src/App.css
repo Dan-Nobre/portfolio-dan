@@ -59,8 +59,8 @@
   --color-btn-hero-secondary-hover: rgba(255, 255, 255, 0.1); /* Hover sutil, beeem levinho */
   
   /* ====== CORES DE TEXTO NO HERO ====== */
-  --color-text-hero: #ffffff;   /* Texto branco sólido (Daniel Nobre) */
-  --color-text-hero-secondary: rgba(255, 255, 255, 0.9); /* Branco 90% opacidade */
+  --color-text-hero: #000000;   /* Texto sempre preto! (Daniel Nobre) */
+  --color-text-hero-secondary: rgba(0, 0, 0, 0.55);
   
   /* ====== ESPAÇAMENTOS ====== */
   --spacing-xs: 4px;

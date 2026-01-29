@@ -10,23 +10,23 @@ const Hero = () => {
   
   return (
     <section className="hero">
-      <div className="hero-container">
-        <div className="hero-name">
-          <h1>Daniel Nobre</h1>
+      <div className="container">
+        <div className="hero-name mb-4">
+          <h1 className="text-hero">Daniel Nobre</h1>
         </div>
         
-        <h2 className="hero-title">{t.hero.title}</h2>
+        <h2 className="hero-title text-subtitle mb-5">{t.hero.title || "Evoluindo produtos com foco em qualidade, experiência do usuário e inovação"}</h2>
         
 
-        <div className="hero-actions">
+        <div className="hero-actions gap-3">
           <button 
-            className="btn-primary"
+            className="btn-hero-primary"
             onClick={() => scrollToSection('footer')}
           >
-            {t.hero.contactBtn}
+            {t.hero.contactBtn || "Vamos conversar"}
           </button>
-          <button className="btn-secondary">
-            {t.hero.resumeBtn}
+          <button className="btn-hero-secondary" onClick={() => window.open('/curriculo.pdf', '_blank')}>
+            {t.hero.resumeBtn || "Meu currículo"}
           </button>
         </div>
       </div>
