@@ -1,4 +1,5 @@
 import useLanguage from '/Users/danielnobre/Developer/Portfolio/portfolio-dan/src/hooks/useLanguage.js';
+import './Hero.css'
 
 const Hero = () => {
   const { t } = useLanguage();

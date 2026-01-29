@@ -1,3 +1,11 @@
 .hero {
     background-color: #d5d5d5;
 }
+
+.hero-actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
