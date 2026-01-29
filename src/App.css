@@ -49,13 +49,13 @@
   --color-bg-dark: #1a1a1a;       /* Fundo preto (footer, seções escuras) */
 
     /* ====== CORES DOS BOTÕES NO HERO ====== */
-  --color-btn-hero-primary: #ffffff;           /* Botão "Vamos conversar" - FUNDO BRANCO */
-  --color-btn-hero-primary-text: #000000;      /* Botão "Vamos conversar" - TEXTO PRETO */
+  --color-btn-hero-primary: #000000;           /* Botão "Vamos conversar" - FUNDO BRANCO */
+  --color-btn-hero-primary-text: #ffffff;      /* Botão "Vamos conversar" - TEXTO PRETO */
   --color-btn-hero-primary-hover: #f0f0f0;     /* Hover do botão branco */
   
-  --color-btn-hero-secondary: transparent;     /* Botão "Meu currículo" - TRANSPARENTE */
-  --color-btn-hero-secondary-border: rgba(255, 255, 255, 0.3); /* Borda branca translúcida */
-  --color-btn-hero-secondary-text: #ffffff;
+  --color-btn-hero-secondary: white;     /* Botão "Meu currículo" - TRANSPARENTE */
+  --color-btn-hero-secondary-border: rgba(0, 0, 0, 0.15); /* Borda branca translúcida */
+  --color-btn-hero-secondary-text: #000000;
   --color-btn-hero-secondary-hover: rgba(255, 255, 255, 0.1); /* Hover sutil, beeem levinho */
   
   /* ====== CORES DE TEXTO NO HERO ====== */
